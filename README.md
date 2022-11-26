@@ -12,5 +12,5 @@ What three files would you need to create/modify for a Rails application to resp
   We would need to modify the tasks_controller.rb and routes.rb files, and create a get.html.erb file in our      views/tasks directory, 
 What are params? Where do they come from?
   Params are parameter objects. They are a method built into ActionController which is a class we inherit from.
-
 Check out your routes. Why do we need two routes each for creating a new Task and editing an existing Task?
+  We need one for the task erb file, one for the params
